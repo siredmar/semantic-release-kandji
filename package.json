@@ -1,6 +1,6 @@
 {
   "name": "@siredmar/semantic-release-kandji",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "src/semantic-release-kandji.js",
   "type": "commonjs",
   "dependencies": {
