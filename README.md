@@ -36,7 +36,7 @@ Add the plugin to your `.releaserc.json` file with the required options:
         "release": true,
         "postinstall_script": [
           "#!/bin/bash",
-          "cp /usr/local/bin/gxctl.conf $HOME/.gxctl/gxctl.conf"
+          "cp /usr/local/bin/myconf.conf $HOME/.myapp/myconf.conf"
         ]
       }
     ]
@@ -98,7 +98,7 @@ You can run the plugin locally with a simulated context:
     release: true,
     postinstall_script: [
       "#!/bin/bash",
-      "cp /usr/local/bin/gxctl.conf $HOME/.gxctl/gxctl.conf"
+      "cp /usr/local/bin/myconf.conf $HOME/.myapp/myconf.conf"
     ]
   };
 
