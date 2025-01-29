@@ -1,14 +1,15 @@
 {
-  "name": "semantic-release-kandji",
+  "name": "@siredmar/semantic-release-kandji",
   "version": "1.0.0",
   "main": "src/semantic-release-kandji.js",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "axios": "^1.7.9",
-    "form-data": "^13.1.0"
+    "commander": "^13.1.0",
+    "form-data": "^4.0.1",
+    "glob": "^11.0.1"
   },
   "description": "This provides a semantic-release plugin for updating artifacts for Kandji custom apps",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,8 +1,7 @@
-// kandji-client.js
 const axios = require("axios");
 const FormData = require("form-data");
-const fs = require("fs"); // Ensure fs is imported
-const path = require("path"); // Add this line to import the path module
+const fs = require("fs");
+const path = require("path");
 
 class KandjiClient {
   constructor(baseUrl, apiToken) {

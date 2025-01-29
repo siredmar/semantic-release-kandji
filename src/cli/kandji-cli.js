@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { Command } = require("commander");
-const KandjiClient = require("../kandji-client");
+const KandjiClient = require("../kandji-client.js");
 const fs = require("fs/promises");
 const path = require("path");
 
